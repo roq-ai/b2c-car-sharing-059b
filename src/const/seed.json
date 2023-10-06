@@ -1,0 +1,2372 @@
+[
+  {
+    "operations_dashboard": [
+      {
+        "id": "5e1bc93b-f6e0-4bb9-91e8-50a7bbf6ff2d",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-05T18:14:53.018Z",
+        "updated_at": "2023-10-05T22:04:40.777Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0da2253-c5c0-4e03-b296-6016ae55f027",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-05T19:31:14.447Z",
+        "updated_at": "2023-10-05T04:40:13.101Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0ba1126-b81e-4ba8-97bd-04fec600f492",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T21:16:53.677Z",
+        "updated_at": "2023-10-05T09:23:31.498Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12ae9fcf-d6b3-41da-8590-74120dd1c8fc",
+        "dashboard_name": "Inventory Dashboard",
+        "created_at": "2023-10-06T00:31:06.488Z",
+        "updated_at": "2023-10-05T07:49:48.867Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdbdfadc-7629-4c31-887f-4f8247796e0a",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T15:11:45.750Z",
+        "updated_at": "2023-10-05T04:36:43.138Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "7afa863b-fb45-46a6-8eef-3517abfc24e3",
+        "staff_name": "John Doe",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T09:47:23.015Z",
+        "updated_at": "2023-10-05T05:55:18.011Z",
+        "dashboard_id": "b0da2253-c5c0-4e03-b296-6016ae55f027"
+      },
+      {
+        "id": "98985152-0775-4e97-ae9d-21cc40a9af78",
+        "staff_name": "Jane Smith",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-05T19:14:05.128Z",
+        "updated_at": "2023-10-05T16:53:13.846Z",
+        "dashboard_id": "12ae9fcf-d6b3-41da-8590-74120dd1c8fc"
+      },
+      {
+        "id": "50b5ad0c-a6fa-401e-a433-e153eda8fb45",
+        "staff_name": "Michael Brown",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-05T05:23:56.365Z",
+        "updated_at": "2023-10-05T18:55:51.033Z",
+        "dashboard_id": "f0ba1126-b81e-4ba8-97bd-04fec600f492"
+      },
+      {
+        "id": "c50f4c71-ae9d-41e5-b8ca-f93bf0cdf633",
+        "staff_name": "Sarah Jones",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T18:36:17.489Z",
+        "updated_at": "2023-10-06T02:58:56.196Z",
+        "dashboard_id": "fdbdfadc-7629-4c31-887f-4f8247796e0a"
+      },
+      {
+        "id": "b570bbdf-4d73-4dd5-926b-03e57e01a4dc",
+        "staff_name": "David Wilson",
+        "staff_role": "Specialist",
+        "created_at": "2023-10-06T00:35:54.852Z",
+        "updated_at": "2023-10-06T02:34:57.307Z",
+        "dashboard_id": "12ae9fcf-d6b3-41da-8590-74120dd1c8fc"
+      }
+    ],
+    "car": [
+      {
+        "id": "74dd90d9-a8aa-4c59-a06e-cf9f1879eb34",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 42504,
+        "color": "Red",
+        "mileage": 96260,
+        "location": "New York",
+        "created_at": "2023-10-05T16:21:01.259Z",
+        "updated_at": "2023-10-05T08:50:08.450Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1ed32088-d96e-4b94-af5e-4911e59f40a0",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 22538,
+        "color": "Blue",
+        "mileage": 10733,
+        "location": "Los Angeles",
+        "created_at": "2023-10-05T17:45:14.052Z",
+        "updated_at": "2023-10-05T17:11:03.104Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5bdf5457-efdc-4cdd-92ea-2b915d030f95",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 3423,
+        "color": "Black",
+        "mileage": 1609,
+        "location": "Chicago",
+        "created_at": "2023-10-05T12:07:06.309Z",
+        "updated_at": "2023-10-05T22:50:16.604Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "005355e1-bbe9-464a-bc7a-67e6a8039833",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 47787,
+        "color": "White",
+        "mileage": 71244,
+        "location": "Houston",
+        "created_at": "2023-10-05T21:58:55.509Z",
+        "updated_at": "2023-10-05T10:51:50.782Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23e9e089-40ad-4610-9d59-63c65f539a0b",
+        "make": "BMW",
+        "model": "X5",
+        "year": 81867,
+        "color": "Silver",
+        "mileage": 39599,
+        "location": "Miami",
+        "created_at": "2023-10-06T02:12:18.416Z",
+        "updated_at": "2023-10-05T14:11:38.570Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "c5161659-9566-4868-9334-3fc7b97fb8a6",
+        "start_time": "2023-10-05T04:08:22.525Z",
+        "end_time": "2023-10-05T07:58:21.121Z",
+        "created_at": "2023-10-05T05:13:50.546Z",
+        "updated_at": "2023-10-06T01:53:07.113Z",
+        "car_id": "74dd90d9-a8aa-4c59-a06e-cf9f1879eb34",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7190c5eb-662a-44ad-b46e-f313ba0013e3",
+        "start_time": "2023-10-05T06:45:28.019Z",
+        "end_time": "2023-10-05T04:39:08.395Z",
+        "created_at": "2023-10-05T23:44:07.582Z",
+        "updated_at": "2023-10-05T10:04:35.790Z",
+        "car_id": "005355e1-bbe9-464a-bc7a-67e6a8039833",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83db63b3-e28d-485b-a6d1-c65339e107e5",
+        "start_time": "2023-10-05T04:32:32.056Z",
+        "end_time": "2023-10-05T23:03:53.803Z",
+        "created_at": "2023-10-06T03:39:42.556Z",
+        "updated_at": "2023-10-05T23:21:14.290Z",
+        "car_id": "5bdf5457-efdc-4cdd-92ea-2b915d030f95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70333705-cac3-40f6-9e13-2378b9fb34de",
+        "start_time": "2023-10-05T07:59:05.323Z",
+        "end_time": "2023-10-06T02:05:40.973Z",
+        "created_at": "2023-10-05T21:41:26.145Z",
+        "updated_at": "2023-10-05T17:02:32.283Z",
+        "car_id": "5bdf5457-efdc-4cdd-92ea-2b915d030f95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "301a9920-b78c-4b9c-bd49-4337a0e99b8e",
+        "start_time": "2023-10-05T08:54:59.072Z",
+        "end_time": "2023-10-05T20:16:10.873Z",
+        "created_at": "2023-10-06T02:19:11.546Z",
+        "updated_at": "2023-10-05T04:48:45.708Z",
+        "car_id": "74dd90d9-a8aa-4c59-a06e-cf9f1879eb34",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "15462d53-01b1-470b-b90c-db49d8337239",
+        "email": "Marquise28@roq.tech",
+        "firstName": "Laurel",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70905560",
+        "tenantId": null
+      },
+      {
+        "reference": "49bed73e-f9b5-4bcc-9de7-9bf035ad951f",
+        "email": "Amaya.Kunde@roq.tech",
+        "firstName": "Lavada",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b2271c3-b363-43c4-ae02-26d68dba24c6",
+        "email": "Aida0@roq.tech",
+        "firstName": "Mazie",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13320173",
+        "tenantId": null
+      },
+      {
+        "reference": "aac83625-58f6-4bde-a094-55d57a5f05e1",
+        "email": "Clint.McGlynn61@roq.tech",
+        "firstName": "Dameon",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54451571",
+        "tenantId": null
+      },
+      {
+        "reference": "e8a61f0b-2753-4c21-8742-ab722c97901d",
+        "email": "Eriberto.Runolfsdottir8@roq.tech",
+        "firstName": "Jules",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1118.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "3e2d6e57-af27-4e74-8104-18b5b8df732e",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-05T17:22:19.573Z",
+        "updated_at": "2023-10-05T10:38:35.928Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c0b353c-fea8-4a9e-85bb-ef6f906412d1",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-06T01:53:25.712Z",
+        "updated_at": "2023-10-05T05:56:39.914Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "165a1089-e7dc-425c-b6e4-ebff715262d1",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T15:50:53.067Z",
+        "updated_at": "2023-10-05T15:45:20.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5754fa42-55fd-4e60-9ca8-044b77227199",
+        "dashboard_name": "Inventory Dashboard",
+        "created_at": "2023-10-05T15:07:15.490Z",
+        "updated_at": "2023-10-05T18:41:53.711Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de59ca2b-d9a6-4072-bd4e-b604ae85f268",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-06T03:23:33.915Z",
+        "updated_at": "2023-10-05T11:15:56.122Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "992d7321-e267-4eda-92a8-721d2333df0a",
+        "staff_name": "John Smith",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T13:37:10.611Z",
+        "updated_at": "2023-10-05T07:01:25.842Z",
+        "dashboard_id": "3e2d6e57-af27-4e74-8104-18b5b8df732e"
+      },
+      {
+        "id": "5e08d80e-bce1-490f-a668-bdbab3d96fcf",
+        "staff_name": "Jane Doe",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-06T00:35:36.995Z",
+        "updated_at": "2023-10-05T21:26:34.768Z",
+        "dashboard_id": "3e2d6e57-af27-4e74-8104-18b5b8df732e"
+      },
+      {
+        "id": "48ac4b47-732f-4d09-badf-61b982f51266",
+        "staff_name": "Mike Johnson",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-05T05:30:10.917Z",
+        "updated_at": "2023-10-05T08:13:23.543Z",
+        "dashboard_id": "3e2d6e57-af27-4e74-8104-18b5b8df732e"
+      },
+      {
+        "id": "717844ba-212b-4318-93d0-6ad42fc4e443",
+        "staff_name": "Sarah Brown",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T08:05:59.763Z",
+        "updated_at": "2023-10-05T19:10:31.521Z",
+        "dashboard_id": "3e2d6e57-af27-4e74-8104-18b5b8df732e"
+      },
+      {
+        "id": "fda05893-ee07-4869-975d-41a638772e24",
+        "staff_name": "Alex Wilson",
+        "staff_role": "Assistant",
+        "created_at": "2023-10-05T21:35:24.637Z",
+        "updated_at": "2023-10-05T14:06:01.152Z",
+        "dashboard_id": "165a1089-e7dc-425c-b6e4-ebff715262d1"
+      }
+    ],
+    "car": [
+      {
+        "id": "f99be01f-09bf-43c8-be56-8e303ca8f1da",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 47855,
+        "color": "Red",
+        "mileage": 17759,
+        "location": "Los Angeles",
+        "created_at": "2023-10-05T22:40:56.105Z",
+        "updated_at": "2023-10-05T09:48:02.828Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b2f3e32a-9747-4251-8a34-7c3bba2bbaf8",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 92053,
+        "color": "Blue",
+        "mileage": 22302,
+        "location": "New York",
+        "created_at": "2023-10-05T16:06:59.993Z",
+        "updated_at": "2023-10-05T08:20:23.868Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "44703f0b-1889-4e93-9fc7-1e730ab30227",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 42919,
+        "color": "Black",
+        "mileage": 82906,
+        "location": "Chicago",
+        "created_at": "2023-10-05T13:19:49.122Z",
+        "updated_at": "2023-10-05T16:12:13.232Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "07de9761-c8ec-47a6-8728-b8a06768683d",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 26715,
+        "color": "White",
+        "mileage": 26897,
+        "location": "Houston",
+        "created_at": "2023-10-05T08:04:56.828Z",
+        "updated_at": "2023-10-05T06:05:30.220Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ad977e30-399f-4aec-aef5-1cb163e47f75",
+        "make": "BMW",
+        "model": "X5",
+        "year": 25471,
+        "color": "Silver",
+        "mileage": 79466,
+        "location": "Miami",
+        "created_at": "2023-10-05T23:14:12.971Z",
+        "updated_at": "2023-10-05T15:18:40.255Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ef1a6803-b87b-481a-b6b3-03d817036ae7",
+        "start_time": "2023-10-06T02:36:19.226Z",
+        "end_time": "2023-10-05T04:55:38.944Z",
+        "created_at": "2023-10-05T07:52:27.043Z",
+        "updated_at": "2023-10-05T08:44:47.855Z",
+        "car_id": "b2f3e32a-9747-4251-8a34-7c3bba2bbaf8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "293483d6-422b-467b-9971-0207cf75c5cf",
+        "start_time": "2023-10-06T02:20:41.001Z",
+        "end_time": "2023-10-05T21:34:23.374Z",
+        "created_at": "2023-10-05T17:15:24.170Z",
+        "updated_at": "2023-10-05T09:47:00.571Z",
+        "car_id": "44703f0b-1889-4e93-9fc7-1e730ab30227",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38be4da8-11e5-4f49-8670-8eee32be9fb0",
+        "start_time": "2023-10-05T16:07:40.425Z",
+        "end_time": "2023-10-05T05:16:10.690Z",
+        "created_at": "2023-10-05T10:52:29.917Z",
+        "updated_at": "2023-10-05T16:28:36.531Z",
+        "car_id": "ad977e30-399f-4aec-aef5-1cb163e47f75",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a8eb5a3-ee0d-4af3-91ce-3c2af987481a",
+        "start_time": "2023-10-05T04:21:51.066Z",
+        "end_time": "2023-10-06T03:41:30.425Z",
+        "created_at": "2023-10-05T13:48:58.664Z",
+        "updated_at": "2023-10-05T16:58:40.046Z",
+        "car_id": "44703f0b-1889-4e93-9fc7-1e730ab30227",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b794739-a86c-45c4-8737-7322dbbffbac",
+        "start_time": "2023-10-05T10:46:16.400Z",
+        "end_time": "2023-10-05T05:57:11.414Z",
+        "created_at": "2023-10-05T19:50:10.509Z",
+        "updated_at": "2023-10-05T11:23:12.808Z",
+        "car_id": "07de9761-c8ec-47a6-8728-b8a06768683d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d09c6f45-99a7-482c-b2c9-8b4d067c1388",
+        "email": "Jermey81@roq.tech",
+        "firstName": "Shyanne",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93969897",
+        "tenantId": null
+      },
+      {
+        "reference": "6a13c1b5-dff6-4d0b-a7ad-810b17cf67b7",
+        "email": "Elisabeth_Harris@roq.tech",
+        "firstName": "Megane",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34622128",
+        "tenantId": null
+      },
+      {
+        "reference": "be31fbf9-6aa1-4c2a-9309-7cdb8d18209c",
+        "email": "Bella_Olson3@roq.tech",
+        "firstName": "Malachi",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/589.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0f9c22f0-71ba-45ca-b254-00b96f8ea383",
+        "email": "Ezekiel_Greenfelder@roq.tech",
+        "firstName": "Alycia",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d474357d-59d4-4cd9-a909-60307948efa5",
+        "email": "Daisha_Schneider73@roq.tech",
+        "firstName": "Araceli",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65954597",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "aba35815-e81d-4824-8ce8-b34c77320f6f",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-05T04:21:21.994Z",
+        "updated_at": "2023-10-05T12:26:19.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f07337fa-ceb7-4a91-b4dc-a6b66b8b4428",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-05T15:11:09.159Z",
+        "updated_at": "2023-10-06T00:56:02.268Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bffd2ed-06c0-4a44-a30e-c58e36a3f27a",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T06:20:59.171Z",
+        "updated_at": "2023-10-05T20:14:49.371Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ab52135-1ca5-4a9e-a4c5-a63f6b103bf5",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T22:32:56.707Z",
+        "updated_at": "2023-10-05T22:07:11.897Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b928c462-2018-411e-92b3-9feb29f5b4e5",
+        "dashboard_name": "Inventory Dashboard",
+        "created_at": "2023-10-06T01:34:45.080Z",
+        "updated_at": "2023-10-05T12:43:31.578Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "ad12aa83-f414-44bc-8279-85edfd6bb842",
+        "staff_name": "John Doe",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T15:43:30.836Z",
+        "updated_at": "2023-10-05T16:01:54.746Z",
+        "dashboard_id": "4ab52135-1ca5-4a9e-a4c5-a63f6b103bf5"
+      },
+      {
+        "id": "6fd7263d-1e00-4915-b131-53e10cf1a6f7",
+        "staff_name": "Jane Smith",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-05T14:48:41.496Z",
+        "updated_at": "2023-10-05T20:01:30.883Z",
+        "dashboard_id": "4ab52135-1ca5-4a9e-a4c5-a63f6b103bf5"
+      },
+      {
+        "id": "0901e267-035c-4c34-b0e7-5d7a366cdeb3",
+        "staff_name": "Michael Brown",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-05T19:06:50.977Z",
+        "updated_at": "2023-10-06T03:41:39.584Z",
+        "dashboard_id": "4ab52135-1ca5-4a9e-a4c5-a63f6b103bf5"
+      },
+      {
+        "id": "6740889a-f2c4-42ca-a667-52e431af5389",
+        "staff_name": "Sarah Jones",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T16:07:59.439Z",
+        "updated_at": "2023-10-05T21:10:53.971Z",
+        "dashboard_id": "aba35815-e81d-4824-8ce8-b34c77320f6f"
+      },
+      {
+        "id": "4acfdc96-256c-421d-b5f7-b86b894f51d5",
+        "staff_name": "David Wilson",
+        "staff_role": "Assistant",
+        "created_at": "2023-10-06T02:38:49.339Z",
+        "updated_at": "2023-10-05T15:18:06.256Z",
+        "dashboard_id": "4ab52135-1ca5-4a9e-a4c5-a63f6b103bf5"
+      }
+    ],
+    "car": [
+      {
+        "id": "60433844-ad58-4a54-bcca-c30ce1c34229",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 47925,
+        "color": "Red",
+        "mileage": 36518,
+        "location": "New York",
+        "created_at": "2023-10-05T08:58:20.894Z",
+        "updated_at": "2023-10-05T19:16:06.266Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "db7155b5-35a5-4f2a-96ff-9a004eefe34f",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 9933,
+        "color": "Blue",
+        "mileage": 88033,
+        "location": "Los Angeles",
+        "created_at": "2023-10-05T08:26:49.315Z",
+        "updated_at": "2023-10-06T02:46:13.985Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "51733ce0-2268-411f-9091-ad25e739a8e4",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 10602,
+        "color": "Black",
+        "mileage": 42856,
+        "location": "Chicago",
+        "created_at": "2023-10-05T04:49:31.175Z",
+        "updated_at": "2023-10-06T00:30:44.055Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dca72d49-d4af-4f61-9a61-8d8065b3889a",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 18787,
+        "color": "White",
+        "mileage": 29733,
+        "location": "Houston",
+        "created_at": "2023-10-05T10:25:01.481Z",
+        "updated_at": "2023-10-05T06:39:02.801Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d2b3046b-1aaa-42e0-928a-4f269bccfaa0",
+        "make": "BMW",
+        "model": "X5",
+        "year": 74483,
+        "color": "Silver",
+        "mileage": 77518,
+        "location": "Miami",
+        "created_at": "2023-10-05T13:21:26.530Z",
+        "updated_at": "2023-10-05T16:15:12.242Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "87b5e068-17b8-4ee6-b811-5550ffaeed20",
+        "start_time": "2023-10-05T09:48:37.904Z",
+        "end_time": "2023-10-05T14:54:39.002Z",
+        "created_at": "2023-10-05T12:19:04.123Z",
+        "updated_at": "2023-10-05T04:18:07.329Z",
+        "car_id": "d2b3046b-1aaa-42e0-928a-4f269bccfaa0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35da835f-76ce-4b79-a2b8-3bf822fe04c8",
+        "start_time": "2023-10-05T16:48:23.659Z",
+        "end_time": "2023-10-05T18:33:43.305Z",
+        "created_at": "2023-10-05T22:14:55.494Z",
+        "updated_at": "2023-10-05T21:03:57.339Z",
+        "car_id": "db7155b5-35a5-4f2a-96ff-9a004eefe34f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "669f9a76-ad19-42df-92cb-bfbb7f8b05c4",
+        "start_time": "2023-10-05T19:36:45.757Z",
+        "end_time": "2023-10-06T03:01:56.787Z",
+        "created_at": "2023-10-06T00:12:51.276Z",
+        "updated_at": "2023-10-06T01:10:49.020Z",
+        "car_id": "dca72d49-d4af-4f61-9a61-8d8065b3889a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ca7df67-2856-4475-9e6c-7c55671f1dac",
+        "start_time": "2023-10-05T22:31:58.788Z",
+        "end_time": "2023-10-05T16:24:06.917Z",
+        "created_at": "2023-10-06T03:47:36.323Z",
+        "updated_at": "2023-10-05T12:49:57.563Z",
+        "car_id": "60433844-ad58-4a54-bcca-c30ce1c34229",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5987b561-9b7b-41ad-935e-98176661fca9",
+        "start_time": "2023-10-05T15:46:57.220Z",
+        "end_time": "2023-10-05T16:27:31.323Z",
+        "created_at": "2023-10-05T17:00:01.705Z",
+        "updated_at": "2023-10-06T01:12:51.729Z",
+        "car_id": "60433844-ad58-4a54-bcca-c30ce1c34229",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9d2379da-ccb7-4896-a6b0-56b9ff67206b",
+        "email": "Lucienne.Mayert@roq.tech",
+        "firstName": "Tiana",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5fead159-ae1a-457d-aab9-66b15826e50b",
+        "email": "Jeff_Hills@roq.tech",
+        "firstName": "Blaise",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49410666",
+        "tenantId": null
+      },
+      {
+        "reference": "01245e09-c415-42cb-8f5c-6b3e094abda5",
+        "email": "Lloyd29@roq.tech",
+        "firstName": "Randal",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/981.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9920cbad-9ce0-49d8-a154-f483ed0ad1e8",
+        "email": "Clare_Pouros96@roq.tech",
+        "firstName": "Matteo",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/669.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b64d044b-e158-4d61-ad65-4a2bebca7f2a",
+        "email": "Agustina90@roq.tech",
+        "firstName": "Louie",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95242753",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "defb3e9d-5c0c-4c20-a461-c77d6ed91153",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-06T02:01:31.287Z",
+        "updated_at": "2023-10-05T12:24:33.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd1dfac1-8857-42ff-abae-0fa1ccda0dca",
+        "dashboard_name": "Production Dashboard",
+        "created_at": "2023-10-05T11:07:54.703Z",
+        "updated_at": "2023-10-05T13:56:06.922Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b470959d-bc8e-49b2-a73f-941b4492cb84",
+        "dashboard_name": "Inventory Dashboard",
+        "created_at": "2023-10-05T10:22:14.978Z",
+        "updated_at": "2023-10-06T01:41:23.940Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95e153b8-97a0-4f2f-9984-db3ecb3129ec",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T09:30:34.898Z",
+        "updated_at": "2023-10-05T22:16:55.349Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15454cbe-62b8-499f-af82-de5403e2917d",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T05:28:05.194Z",
+        "updated_at": "2023-10-05T22:10:08.384Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "9e809483-76e6-4896-af5b-d62dbf38f465",
+        "staff_name": "John Smith",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T20:50:14.345Z",
+        "updated_at": "2023-10-05T13:51:53.765Z",
+        "dashboard_id": "defb3e9d-5c0c-4c20-a461-c77d6ed91153"
+      },
+      {
+        "id": "b4089546-0fb2-49a4-8507-56a18969bae0",
+        "staff_name": "Jane Doe",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-06T01:55:44.064Z",
+        "updated_at": "2023-10-06T03:08:05.764Z",
+        "dashboard_id": "95e153b8-97a0-4f2f-9984-db3ecb3129ec"
+      },
+      {
+        "id": "43792f0b-afa3-42b0-bf8a-118270d53cb7",
+        "staff_name": "Mike Johnson",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-05T21:04:11.321Z",
+        "updated_at": "2023-10-06T00:45:34.992Z",
+        "dashboard_id": "15454cbe-62b8-499f-af82-de5403e2917d"
+      },
+      {
+        "id": "0619b9d7-8508-40d6-b6a7-909723cb0170",
+        "staff_name": "Sarah Brown",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T05:43:11.035Z",
+        "updated_at": "2023-10-05T23:24:02.961Z",
+        "dashboard_id": "15454cbe-62b8-499f-af82-de5403e2917d"
+      },
+      {
+        "id": "eeb8b580-a5ca-48c9-8b0e-221130251973",
+        "staff_name": "David Wilson",
+        "staff_role": "Assistant",
+        "created_at": "2023-10-05T06:21:35.442Z",
+        "updated_at": "2023-10-05T23:29:15.844Z",
+        "dashboard_id": "95e153b8-97a0-4f2f-9984-db3ecb3129ec"
+      }
+    ],
+    "car": [
+      {
+        "id": "9f1eff6e-7a63-4eb1-a405-338ec8f5a8fb",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 73186,
+        "color": "Red",
+        "mileage": 14665,
+        "location": "Los Angeles",
+        "created_at": "2023-10-06T04:01:15.477Z",
+        "updated_at": "2023-10-06T03:48:49.084Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7714e3f2-5133-483b-89b2-ed0db88c49c8",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 25249,
+        "color": "Blue",
+        "mileage": 72424,
+        "location": "New York",
+        "created_at": "2023-10-05T12:48:55.208Z",
+        "updated_at": "2023-10-05T19:39:04.626Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ccb9d629-8118-48ca-9693-8e3c451eb300",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 27954,
+        "color": "Black",
+        "mileage": 51498,
+        "location": "Chicago",
+        "created_at": "2023-10-05T14:35:30.775Z",
+        "updated_at": "2023-10-05T13:49:57.385Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "afae1ec7-8419-4029-b544-9935cbe44aa3",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 50054,
+        "color": "White",
+        "mileage": 90882,
+        "location": "Houston",
+        "created_at": "2023-10-05T11:42:59.885Z",
+        "updated_at": "2023-10-05T12:31:41.224Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "34fa35ae-dff9-4eb2-afe4-499fd0d7c0f0",
+        "make": "BMW",
+        "model": "X5",
+        "year": 78675,
+        "color": "Silver",
+        "mileage": 59251,
+        "location": "Miami",
+        "created_at": "2023-10-05T11:54:54.762Z",
+        "updated_at": "2023-10-05T17:43:34.043Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "26e50931-704b-4c85-8ffd-73301e428fdd",
+        "start_time": "2023-10-06T01:39:53.632Z",
+        "end_time": "2023-10-05T17:32:56.556Z",
+        "created_at": "2023-10-05T17:02:50.026Z",
+        "updated_at": "2023-10-05T06:00:40.734Z",
+        "car_id": "9f1eff6e-7a63-4eb1-a405-338ec8f5a8fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b026c59a-f377-47f1-b828-4fa9af88f6e9",
+        "start_time": "2023-10-05T12:37:22.384Z",
+        "end_time": "2023-10-05T11:14:13.988Z",
+        "created_at": "2023-10-06T03:29:20.796Z",
+        "updated_at": "2023-10-05T17:54:46.240Z",
+        "car_id": "9f1eff6e-7a63-4eb1-a405-338ec8f5a8fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8379445-7f29-4f38-a30a-eb9a54de8603",
+        "start_time": "2023-10-05T07:59:00.406Z",
+        "end_time": "2023-10-05T22:56:21.495Z",
+        "created_at": "2023-10-05T14:35:21.554Z",
+        "updated_at": "2023-10-05T06:15:15.812Z",
+        "car_id": "34fa35ae-dff9-4eb2-afe4-499fd0d7c0f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d021595c-c375-4153-8ed6-48b8c57b51b7",
+        "start_time": "2023-10-05T17:46:45.309Z",
+        "end_time": "2023-10-05T04:06:58.547Z",
+        "created_at": "2023-10-05T21:25:19.889Z",
+        "updated_at": "2023-10-06T00:55:11.371Z",
+        "car_id": "afae1ec7-8419-4029-b544-9935cbe44aa3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8621a34c-59cd-4ede-8eff-4a1b2bf227dc",
+        "start_time": "2023-10-06T01:03:15.912Z",
+        "end_time": "2023-10-05T23:16:55.760Z",
+        "created_at": "2023-10-05T07:56:21.982Z",
+        "updated_at": "2023-10-05T08:14:16.098Z",
+        "car_id": "34fa35ae-dff9-4eb2-afe4-499fd0d7c0f0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ab898d73-8966-47fa-8d65-5f9a573e11d8",
+        "email": "Manuela26@roq.tech",
+        "firstName": "Theresa",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24050261",
+        "tenantId": null
+      },
+      {
+        "reference": "ae4336f8-91c2-4755-a44d-d8168a8d1a16",
+        "email": "Ardith_Jerde@roq.tech",
+        "firstName": "Gudrun",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15909183",
+        "tenantId": null
+      },
+      {
+        "reference": "35238337-406e-4d05-8c7e-82ba09ba0860",
+        "email": "Thelma6@roq.tech",
+        "firstName": "Felicia",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ca2e6e2-1bf2-4dd5-b9da-f836a021969c",
+        "email": "Vena22@roq.tech",
+        "firstName": "River",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5086079",
+        "tenantId": null
+      },
+      {
+        "reference": "a9638d47-4a31-4a3b-9a58-c4bf5d6f2214",
+        "email": "Maye52@roq.tech",
+        "firstName": "Stewart",
+        "lastName": "Feest-O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1141.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "2b4a6270-5f5f-45ba-86e2-92054bf1e8e8",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-06T01:01:20.416Z",
+        "updated_at": "2023-10-05T17:47:09.534Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30ca4086-8bbd-4a10-b32b-d1f4a35dfdb1",
+        "dashboard_name": "Inventory Dashboard",
+        "created_at": "2023-10-05T06:24:27.866Z",
+        "updated_at": "2023-10-05T20:09:45.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ffc44b5-f7d3-45ad-8d2d-4aa9a2f0091c",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-06T03:16:58.481Z",
+        "updated_at": "2023-10-05T12:29:11.214Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48627969-c7f5-4b8c-b8d0-e6da85df55a5",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T20:55:20.384Z",
+        "updated_at": "2023-10-05T22:25:03.410Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93d9e15f-a981-4f2a-9c0f-bec060a15113",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T16:37:11.825Z",
+        "updated_at": "2023-10-06T01:41:00.891Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "d5f3656b-a3b4-4413-a7e0-c2b663d5d8ba",
+        "staff_name": "John Doe",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T21:25:45.174Z",
+        "updated_at": "2023-10-05T22:21:07.978Z",
+        "dashboard_id": "30ca4086-8bbd-4a10-b32b-d1f4a35dfdb1"
+      },
+      {
+        "id": "c5373353-61dc-4a07-a7db-3b7752b42773",
+        "staff_name": "Jane Smith",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-06T02:09:02.441Z",
+        "updated_at": "2023-10-05T11:48:01.044Z",
+        "dashboard_id": "93d9e15f-a981-4f2a-9c0f-bec060a15113"
+      },
+      {
+        "id": "2f8fdf56-4fa5-4a17-b2d5-efc521c97836",
+        "staff_name": "Alex Johnson",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-05T05:25:57.416Z",
+        "updated_at": "2023-10-05T08:40:03.701Z",
+        "dashboard_id": "2b4a6270-5f5f-45ba-86e2-92054bf1e8e8"
+      },
+      {
+        "id": "fe8e1ba4-5c9a-48a3-8612-0c08f1a995f9",
+        "staff_name": "Emily Davis",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T22:53:12.750Z",
+        "updated_at": "2023-10-05T12:38:39.056Z",
+        "dashboard_id": "2b4a6270-5f5f-45ba-86e2-92054bf1e8e8"
+      },
+      {
+        "id": "255441bf-abff-4f2b-8bd0-5326c0c4e12a",
+        "staff_name": "Michael Scott",
+        "staff_role": "Assistant",
+        "created_at": "2023-10-05T10:51:04.911Z",
+        "updated_at": "2023-10-05T10:32:38.855Z",
+        "dashboard_id": "30ca4086-8bbd-4a10-b32b-d1f4a35dfdb1"
+      }
+    ],
+    "car": [
+      {
+        "id": "6f8c1630-ac21-43d3-b7e2-136e12cb0bf6",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 24192,
+        "color": "Red",
+        "mileage": 76656,
+        "location": "New York",
+        "created_at": "2023-10-05T04:12:43.953Z",
+        "updated_at": "2023-10-05T04:52:06.535Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96576631-d581-407c-ad83-f57244420ae6",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 25618,
+        "color": "Blue",
+        "mileage": 57565,
+        "location": "Los Angeles",
+        "created_at": "2023-10-06T00:51:03.111Z",
+        "updated_at": "2023-10-05T17:08:06.543Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e1461b1-a398-4a5e-b739-7623dac228bb",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 94956,
+        "color": "Black",
+        "mileage": 92078,
+        "location": "Chicago",
+        "created_at": "2023-10-05T08:26:36.198Z",
+        "updated_at": "2023-10-05T06:17:05.118Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f87af44e-7299-4bf2-b41e-63e355689b33",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 28322,
+        "color": "White",
+        "mileage": 20071,
+        "location": "Houston",
+        "created_at": "2023-10-05T05:30:16.235Z",
+        "updated_at": "2023-10-05T06:51:48.921Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d28642ba-b689-4567-a61e-bb8dd7968a7a",
+        "make": "BMW",
+        "model": "X5",
+        "year": 69717,
+        "color": "Silver",
+        "mileage": 32436,
+        "location": "Miami",
+        "created_at": "2023-10-06T00:55:39.622Z",
+        "updated_at": "2023-10-05T16:22:22.717Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4517a0a8-87da-48ab-b5d5-fcad33b117d1",
+        "start_time": "2023-10-05T19:31:35.456Z",
+        "end_time": "2023-10-05T20:36:19.940Z",
+        "created_at": "2023-10-05T18:52:14.526Z",
+        "updated_at": "2023-10-05T10:12:16.577Z",
+        "car_id": "9e1461b1-a398-4a5e-b739-7623dac228bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfa154ff-ac62-4852-8332-932b3dec3a2c",
+        "start_time": "2023-10-05T15:17:52.905Z",
+        "end_time": "2023-10-06T03:58:18.397Z",
+        "created_at": "2023-10-05T12:09:22.764Z",
+        "updated_at": "2023-10-05T21:40:14.658Z",
+        "car_id": "d28642ba-b689-4567-a61e-bb8dd7968a7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf023d4f-f11d-43b3-9e76-027539c12151",
+        "start_time": "2023-10-05T21:52:06.388Z",
+        "end_time": "2023-10-05T11:32:22.234Z",
+        "created_at": "2023-10-05T06:00:10.631Z",
+        "updated_at": "2023-10-05T22:40:52.966Z",
+        "car_id": "9e1461b1-a398-4a5e-b739-7623dac228bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be1465db-0ae5-4dc3-b855-edf933a21f81",
+        "start_time": "2023-10-05T22:17:37.182Z",
+        "end_time": "2023-10-06T03:39:22.213Z",
+        "created_at": "2023-10-06T03:28:44.575Z",
+        "updated_at": "2023-10-05T06:53:55.695Z",
+        "car_id": "f87af44e-7299-4bf2-b41e-63e355689b33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f5c2241-fe68-4525-bed7-57bb0acfe4ad",
+        "start_time": "2023-10-06T01:21:52.310Z",
+        "end_time": "2023-10-05T22:24:29.084Z",
+        "created_at": "2023-10-05T08:42:39.239Z",
+        "updated_at": "2023-10-05T15:47:44.636Z",
+        "car_id": "d28642ba-b689-4567-a61e-bb8dd7968a7a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0118b06a-e1c3-4cac-ac1e-a856a0ca543c",
+        "email": "Ole_Swift18@roq.tech",
+        "firstName": "Emmanuelle",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/380.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6c7aa718-b882-45da-91f6-fca4186ca769",
+        "email": "Elmore19@roq.tech",
+        "firstName": "Matteo",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25787799",
+        "tenantId": null
+      },
+      {
+        "reference": "a6c57716-e777-48fb-88a0-bcad8ce906df",
+        "email": "Felton.Cummings@roq.tech",
+        "firstName": "Nasir",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1054.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ef5f1aa-dc06-4e5e-ba95-2593dcd01848",
+        "email": "Ursula_Bins@roq.tech",
+        "firstName": "Oral",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/943.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d72a8c18-e891-4ff2-afb9-dc8916efa4a4",
+        "email": "Tobin.Kris85@roq.tech",
+        "firstName": "Therese",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75728681",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "e7bb7cf2-c0c2-4347-bb67-5a6e8433f46e",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-05T19:40:12.564Z",
+        "updated_at": "2023-10-05T07:39:42.807Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8b37bf4-7c16-4399-be32-a450753481ba",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-05T14:39:17.851Z",
+        "updated_at": "2023-10-05T22:13:00.430Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32dada78-c40c-4360-83fe-326cd108732f",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T20:19:38.880Z",
+        "updated_at": "2023-10-06T03:18:56.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b19871f7-86ff-481e-823d-583dc30b773f",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T11:54:57.555Z",
+        "updated_at": "2023-10-05T20:45:29.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65eb51ba-9b55-4b96-b30e-c29e2c109754",
+        "dashboard_name": "Product Dashboard",
+        "created_at": "2023-10-05T17:44:06.499Z",
+        "updated_at": "2023-10-06T02:13:53.839Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "768ffffb-889e-45b2-8ebf-45be5bda6915",
+        "staff_name": "John Doe",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T06:32:28.852Z",
+        "updated_at": "2023-10-05T07:54:29.666Z",
+        "dashboard_id": "e7bb7cf2-c0c2-4347-bb67-5a6e8433f46e"
+      },
+      {
+        "id": "dbd62a55-0c02-4672-b6ee-29a26d46dda3",
+        "staff_name": "Jane Smith",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-05T21:16:01.337Z",
+        "updated_at": "2023-10-05T08:49:38.083Z",
+        "dashboard_id": "b19871f7-86ff-481e-823d-583dc30b773f"
+      },
+      {
+        "id": "406e5498-eb83-48e4-b72b-54d85439a522",
+        "staff_name": "Michael Brown",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-05T06:51:41.325Z",
+        "updated_at": "2023-10-05T23:22:40.414Z",
+        "dashboard_id": "e7bb7cf2-c0c2-4347-bb67-5a6e8433f46e"
+      },
+      {
+        "id": "82aaf125-723e-4395-82ec-cc55fe80acdc",
+        "staff_name": "Sarah Jones",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T20:43:04.199Z",
+        "updated_at": "2023-10-05T12:40:12.138Z",
+        "dashboard_id": "b19871f7-86ff-481e-823d-583dc30b773f"
+      },
+      {
+        "id": "8404bd05-4355-4f5f-9fd9-6d2a0e1fd5e1",
+        "staff_name": "Robert Wilson",
+        "staff_role": "Assistant",
+        "created_at": "2023-10-05T14:43:02.097Z",
+        "updated_at": "2023-10-05T17:03:01.516Z",
+        "dashboard_id": "b19871f7-86ff-481e-823d-583dc30b773f"
+      }
+    ],
+    "car": [
+      {
+        "id": "220a49f8-880d-414e-9345-48966304f228",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 5795,
+        "color": "Red",
+        "mileage": 45098,
+        "location": "New York",
+        "created_at": "2023-10-05T22:57:35.393Z",
+        "updated_at": "2023-10-05T06:18:13.969Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "98502d49-3836-4c31-89f7-b2ae239feb03",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 48401,
+        "color": "Blue",
+        "mileage": 34236,
+        "location": "Los Angeles",
+        "created_at": "2023-10-05T06:57:30.230Z",
+        "updated_at": "2023-10-06T00:44:55.516Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0502cc6f-4b60-4cb0-b8bc-e7733fd1168b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 89456,
+        "color": "Silver",
+        "mileage": 52486,
+        "location": "Chicago",
+        "created_at": "2023-10-05T13:10:02.779Z",
+        "updated_at": "2023-10-05T11:34:47.593Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0fd870b2-7313-4b40-b353-cf134abe041f",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 26266,
+        "color": "Black",
+        "mileage": 45934,
+        "location": "Houston",
+        "created_at": "2023-10-05T05:19:12.742Z",
+        "updated_at": "2023-10-05T21:28:20.985Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6594a90a-5410-4fbc-984a-33a054046439",
+        "make": "BMW",
+        "model": "X5",
+        "year": 87520,
+        "color": "White",
+        "mileage": 44142,
+        "location": "Miami",
+        "created_at": "2023-10-05T19:02:51.254Z",
+        "updated_at": "2023-10-05T08:50:55.111Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b9d2383c-6297-4f40-b822-6956a43ce514",
+        "start_time": "2023-10-05T17:14:50.488Z",
+        "end_time": "2023-10-05T06:20:57.299Z",
+        "created_at": "2023-10-06T01:18:29.451Z",
+        "updated_at": "2023-10-05T19:53:27.791Z",
+        "car_id": "0502cc6f-4b60-4cb0-b8bc-e7733fd1168b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6477402d-206e-4f14-be42-286ee71bf3dd",
+        "start_time": "2023-10-05T17:06:21.270Z",
+        "end_time": "2023-10-05T16:37:20.899Z",
+        "created_at": "2023-10-05T16:13:27.875Z",
+        "updated_at": "2023-10-05T12:18:32.165Z",
+        "car_id": "0502cc6f-4b60-4cb0-b8bc-e7733fd1168b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adf75cf4-92a6-46c0-bf6b-80709ef82c9b",
+        "start_time": "2023-10-05T06:56:54.621Z",
+        "end_time": "2023-10-05T04:31:01.978Z",
+        "created_at": "2023-10-06T00:50:28.426Z",
+        "updated_at": "2023-10-05T12:27:20.151Z",
+        "car_id": "98502d49-3836-4c31-89f7-b2ae239feb03",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "598944d3-c465-4f42-a386-be3bceefacb6",
+        "start_time": "2023-10-06T02:12:43.919Z",
+        "end_time": "2023-10-05T15:34:21.655Z",
+        "created_at": "2023-10-05T15:45:42.793Z",
+        "updated_at": "2023-10-05T09:51:00.322Z",
+        "car_id": "0502cc6f-4b60-4cb0-b8bc-e7733fd1168b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "745a080a-f996-4a59-b57b-459117ebeb7c",
+        "start_time": "2023-10-05T21:43:03.878Z",
+        "end_time": "2023-10-05T11:13:21.966Z",
+        "created_at": "2023-10-06T00:06:09.199Z",
+        "updated_at": "2023-10-05T22:11:27.600Z",
+        "car_id": "98502d49-3836-4c31-89f7-b2ae239feb03",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fccf07d1-7019-40bd-a8c6-55dba01b8b95",
+        "email": "Tremaine75@roq.tech",
+        "firstName": "Leann",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/881.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eac05a56-ed4b-4f46-b824-ce3ad2bdd70a",
+        "email": "Ari.Kertzmann@roq.tech",
+        "firstName": "Sabrina",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1073.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8a578f6f-df40-4b8b-97a7-201594a85b32",
+        "email": "Stacey_Buckridge18@roq.tech",
+        "firstName": "Wilford",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/809.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "98b5344d-01d9-44c8-ae73-032a0e66c1ee",
+        "email": "Astrid81@roq.tech",
+        "firstName": "Preston",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1233.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec8e6099-4fca-4939-addb-0a0135febb41",
+        "email": "Nya.Reynolds29@roq.tech",
+        "firstName": "Aaliyah",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13321568",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "7e1a326a-5be6-464a-b7cf-1efcc33346f7",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-06T00:57:10.062Z",
+        "updated_at": "2023-10-06T03:30:27.729Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53842601-93cf-4a75-9eb8-4f8b9944b0ec",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-05T05:39:57.507Z",
+        "updated_at": "2023-10-05T21:30:28.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "333579f9-d972-4ae4-92ed-f6357b8ffd2a",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T11:26:28.811Z",
+        "updated_at": "2023-10-05T09:56:38.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c0e6ec4-f2f6-4b3c-a4d1-67210613e2a0",
+        "dashboard_name": "Production Dashboard",
+        "created_at": "2023-10-05T06:03:32.867Z",
+        "updated_at": "2023-10-05T17:02:48.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5be0383-897d-4f8b-b7b2-0f1bdced6573",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T09:33:15.693Z",
+        "updated_at": "2023-10-06T02:27:07.340Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "f9e18a9b-4396-4f69-87fd-f6d33e12dfb6",
+        "staff_name": "John Smith",
+        "staff_role": "Manager",
+        "created_at": "2023-10-06T00:27:31.462Z",
+        "updated_at": "2023-10-06T00:57:22.734Z",
+        "dashboard_id": "9c0e6ec4-f2f6-4b3c-a4d1-67210613e2a0"
+      },
+      {
+        "id": "1f1ac0b7-0dbc-4bb1-b6be-75c4c72ccc37",
+        "staff_name": "Jane Doe",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-05T23:45:09.950Z",
+        "updated_at": "2023-10-06T00:19:43.711Z",
+        "dashboard_id": "7e1a326a-5be6-464a-b7cf-1efcc33346f7"
+      },
+      {
+        "id": "cfbeb601-3afc-4453-b493-d8e746a43b63",
+        "staff_name": "Michael Johnson",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-05T18:03:45.564Z",
+        "updated_at": "2023-10-05T10:45:53.925Z",
+        "dashboard_id": "7e1a326a-5be6-464a-b7cf-1efcc33346f7"
+      },
+      {
+        "id": "6708cd09-6b1c-4137-bce4-675d8a4fc997",
+        "staff_name": "Sarah Wilson",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T09:23:12.278Z",
+        "updated_at": "2023-10-05T05:48:32.823Z",
+        "dashboard_id": "333579f9-d972-4ae4-92ed-f6357b8ffd2a"
+      },
+      {
+        "id": "80a2c685-6512-4238-ae53-292a4c13f7a6",
+        "staff_name": "Robert Brown",
+        "staff_role": "Assistant",
+        "created_at": "2023-10-05T18:47:45.154Z",
+        "updated_at": "2023-10-05T05:06:18.713Z",
+        "dashboard_id": "d5be0383-897d-4f8b-b7b2-0f1bdced6573"
+      }
+    ],
+    "car": [
+      {
+        "id": "4231bdae-56c8-4e9c-9db7-324ac8ddab08",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 49118,
+        "color": "Red",
+        "mileage": 86577,
+        "location": "New York",
+        "created_at": "2023-10-05T16:35:42.102Z",
+        "updated_at": "2023-10-05T11:33:33.393Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2e7236ea-be67-4f9e-83bc-380ee04b743b",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 12645,
+        "color": "Blue",
+        "mileage": 31683,
+        "location": "Los Angeles",
+        "created_at": "2023-10-05T08:31:23.260Z",
+        "updated_at": "2023-10-05T14:19:43.236Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "31927c79-afed-4a0b-888b-35aa4eb5c973",
+        "make": "Ford",
+        "model": "Focus",
+        "year": 38752,
+        "color": "Black",
+        "mileage": 31327,
+        "location": "Chicago",
+        "created_at": "2023-10-05T06:56:41.612Z",
+        "updated_at": "2023-10-06T03:00:20.591Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a51e5e47-0214-4f4e-ac89-4c4a668d2958",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 97489,
+        "color": "White",
+        "mileage": 38539,
+        "location": "Houston",
+        "created_at": "2023-10-05T10:21:56.502Z",
+        "updated_at": "2023-10-05T13:47:20.295Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e2f777e0-8f56-428a-a300-6a05706b4416",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 17240,
+        "color": "Silver",
+        "mileage": 59528,
+        "location": "Miami",
+        "created_at": "2023-10-05T04:52:44.356Z",
+        "updated_at": "2023-10-05T11:44:27.700Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "72f808bd-763f-40e7-8a11-5c774c33dbcb",
+        "start_time": "2023-10-05T05:51:23.764Z",
+        "end_time": "2023-10-05T06:41:47.895Z",
+        "created_at": "2023-10-05T16:10:19.942Z",
+        "updated_at": "2023-10-06T02:27:54.820Z",
+        "car_id": "31927c79-afed-4a0b-888b-35aa4eb5c973",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89b9fdbc-52fb-47b8-a14f-f61446f83339",
+        "start_time": "2023-10-05T13:22:41.219Z",
+        "end_time": "2023-10-05T23:26:53.696Z",
+        "created_at": "2023-10-05T15:44:26.935Z",
+        "updated_at": "2023-10-05T22:56:40.255Z",
+        "car_id": "4231bdae-56c8-4e9c-9db7-324ac8ddab08",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c5f7024-c707-4b6f-8570-9b4b0ee2aa71",
+        "start_time": "2023-10-05T14:02:57.367Z",
+        "end_time": "2023-10-05T10:05:39.634Z",
+        "created_at": "2023-10-06T04:02:21.128Z",
+        "updated_at": "2023-10-05T11:57:29.944Z",
+        "car_id": "e2f777e0-8f56-428a-a300-6a05706b4416",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59945510-cb75-468c-91b7-60195d2054ce",
+        "start_time": "2023-10-05T07:50:11.675Z",
+        "end_time": "2023-10-05T17:11:41.322Z",
+        "created_at": "2023-10-05T05:30:18.506Z",
+        "updated_at": "2023-10-05T11:37:29.425Z",
+        "car_id": "31927c79-afed-4a0b-888b-35aa4eb5c973",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5411de44-0258-4449-acc8-589515b5558f",
+        "start_time": "2023-10-05T05:53:34.269Z",
+        "end_time": "2023-10-05T10:41:23.612Z",
+        "created_at": "2023-10-05T11:39:18.359Z",
+        "updated_at": "2023-10-05T18:34:20.628Z",
+        "car_id": "2e7236ea-be67-4f9e-83bc-380ee04b743b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5fa85801-9cae-4495-9905-df7ed51ae547",
+        "email": "Cornelius_Harvey@roq.tech",
+        "firstName": "Demario",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17819313",
+        "tenantId": null
+      },
+      {
+        "reference": "73490cf9-f7a6-4e93-acee-0dfe3ef59f71",
+        "email": "Emory.Kub60@roq.tech",
+        "firstName": "Robin",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42005403",
+        "tenantId": null
+      },
+      {
+        "reference": "3734c0d2-41fc-4765-8a08-8578b22d82be",
+        "email": "Carol_Considine13@roq.tech",
+        "firstName": "Frank",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65555238",
+        "tenantId": null
+      },
+      {
+        "reference": "2c70d67c-cc96-4e68-b689-07fd919e1d35",
+        "email": "Desmond89@roq.tech",
+        "firstName": "Oren",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/661.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "22acd2d5-4af8-48be-bde1-1b42d8ffba97",
+        "email": "Lizzie_Dach62@roq.tech",
+        "firstName": "Carole",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14639956",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "74420dda-024a-4f0e-819a-a4344f61d515",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-05T08:25:20.656Z",
+        "updated_at": "2023-10-06T03:22:31.697Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "788108a2-83bf-4fc9-a26e-0ccddc21d121",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-05T13:55:43.752Z",
+        "updated_at": "2023-10-05T16:15:30.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dafc79f-a254-48cb-8ff3-ae2b86cb43be",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-06T01:46:17.942Z",
+        "updated_at": "2023-10-06T00:55:01.599Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef93838b-f037-4796-aeba-e564a2e51bcc",
+        "dashboard_name": "Inventory Dashboard",
+        "created_at": "2023-10-06T00:49:35.899Z",
+        "updated_at": "2023-10-05T11:28:06.700Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8575534-3cb0-411a-8208-1fe0fa7eb1cc",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T06:22:46.217Z",
+        "updated_at": "2023-10-05T16:44:58.761Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "15f83bcf-d9a7-427b-9c43-1da2c1999915",
+        "staff_name": "John Smith",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T22:15:53.849Z",
+        "updated_at": "2023-10-05T17:13:53.557Z",
+        "dashboard_id": "ef93838b-f037-4796-aeba-e564a2e51bcc"
+      },
+      {
+        "id": "1bfdd6ca-a8b2-4f0b-b783-99fb35905cb7",
+        "staff_name": "Jane Doe",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-05T15:14:11.632Z",
+        "updated_at": "2023-10-05T12:35:20.950Z",
+        "dashboard_id": "ef93838b-f037-4796-aeba-e564a2e51bcc"
+      },
+      {
+        "id": "db682cf8-1583-4b99-9de1-8afd86082930",
+        "staff_name": "Michael Brown",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-06T01:58:59.472Z",
+        "updated_at": "2023-10-05T13:34:10.937Z",
+        "dashboard_id": "ef93838b-f037-4796-aeba-e564a2e51bcc"
+      },
+      {
+        "id": "69920c51-80a9-4418-b8d7-b2864d239ca9",
+        "staff_name": "Sarah Jones",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T05:48:45.644Z",
+        "updated_at": "2023-10-05T22:00:51.766Z",
+        "dashboard_id": "ef93838b-f037-4796-aeba-e564a2e51bcc"
+      },
+      {
+        "id": "be2ad0a4-5f1a-426d-859b-dfea7265adf0",
+        "staff_name": "Robert Wilson",
+        "staff_role": "Specialist",
+        "created_at": "2023-10-05T16:01:28.069Z",
+        "updated_at": "2023-10-05T17:25:58.092Z",
+        "dashboard_id": "ef93838b-f037-4796-aeba-e564a2e51bcc"
+      }
+    ],
+    "car": [
+      {
+        "id": "ba8c1431-b973-48dd-8af9-39f8670ea58d",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 34017,
+        "color": "Red",
+        "mileage": 87788,
+        "location": "Los Angeles",
+        "created_at": "2023-10-05T10:15:57.990Z",
+        "updated_at": "2023-10-05T09:36:49.623Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "209d9894-157d-4982-8e50-ba0a8e9833f5",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 55768,
+        "color": "Blue",
+        "mileage": 16363,
+        "location": "New York",
+        "created_at": "2023-10-05T07:51:17.460Z",
+        "updated_at": "2023-10-05T08:05:11.587Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "51706a40-80dc-4964-b616-6a7b09cf2cdf",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 58654,
+        "color": "Black",
+        "mileage": 29315,
+        "location": "Chicago",
+        "created_at": "2023-10-05T12:54:00.768Z",
+        "updated_at": "2023-10-05T20:09:59.136Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "20f70067-417e-426a-8c4b-acd609e6ac00",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 38621,
+        "color": "White",
+        "mileage": 8484,
+        "location": "Houston",
+        "created_at": "2023-10-05T12:34:35.225Z",
+        "updated_at": "2023-10-05T09:47:33.512Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "73ab9c4d-ae01-4e92-9d65-e2d706b6f9da",
+        "make": "BMW",
+        "model": "X5",
+        "year": 13903,
+        "color": "Silver",
+        "mileage": 99885,
+        "location": "Miami",
+        "created_at": "2023-10-05T23:55:38.112Z",
+        "updated_at": "2023-10-06T02:57:23.258Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "26978a67-d6b6-42b4-a54a-8b445bc32ec4",
+        "start_time": "2023-10-05T10:00:38.252Z",
+        "end_time": "2023-10-05T19:35:25.592Z",
+        "created_at": "2023-10-05T19:01:03.727Z",
+        "updated_at": "2023-10-05T19:28:23.592Z",
+        "car_id": "73ab9c4d-ae01-4e92-9d65-e2d706b6f9da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5959ea6c-095a-4993-9954-323fa94902ac",
+        "start_time": "2023-10-05T18:38:39.430Z",
+        "end_time": "2023-10-05T05:32:23.720Z",
+        "created_at": "2023-10-05T15:49:26.027Z",
+        "updated_at": "2023-10-05T09:36:06.170Z",
+        "car_id": "20f70067-417e-426a-8c4b-acd609e6ac00",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe4eeea3-0f60-447e-a210-43aed8565a47",
+        "start_time": "2023-10-05T05:50:07.409Z",
+        "end_time": "2023-10-05T12:59:07.182Z",
+        "created_at": "2023-10-05T20:15:47.780Z",
+        "updated_at": "2023-10-05T22:34:21.865Z",
+        "car_id": "ba8c1431-b973-48dd-8af9-39f8670ea58d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bd52824-8d0d-4ae7-9908-ca11637df393",
+        "start_time": "2023-10-05T10:12:04.750Z",
+        "end_time": "2023-10-05T19:03:05.195Z",
+        "created_at": "2023-10-05T06:41:56.947Z",
+        "updated_at": "2023-10-05T20:20:16.249Z",
+        "car_id": "ba8c1431-b973-48dd-8af9-39f8670ea58d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cbf4f95-1248-410d-8ecc-8fadb670eded",
+        "start_time": "2023-10-06T02:30:55.486Z",
+        "end_time": "2023-10-05T20:22:45.947Z",
+        "created_at": "2023-10-05T11:34:50.147Z",
+        "updated_at": "2023-10-05T11:03:52.037Z",
+        "car_id": "73ab9c4d-ae01-4e92-9d65-e2d706b6f9da",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b04c28fe-3029-4bf7-bfa8-5fd6d6955b46",
+        "email": "Vella_Fisher@roq.tech",
+        "firstName": "Cordelia",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/910.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf878fff-2ee6-4ae2-81b6-a061ddd93037",
+        "email": "Trace_Cartwright@roq.tech",
+        "firstName": "Mona",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/524.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0dcacef1-e1b3-4a77-af63-c0885c137080",
+        "email": "Gideon4@roq.tech",
+        "firstName": "Henriette",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42718223",
+        "tenantId": null
+      },
+      {
+        "reference": "aeec1b4c-8fe2-438b-908b-db48349896a6",
+        "email": "Eli.Schiller@roq.tech",
+        "firstName": "Jarret",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50329572",
+        "tenantId": null
+      },
+      {
+        "reference": "e9925719-5fed-416e-9c65-8f77540ef654",
+        "email": "Dixie19@roq.tech",
+        "firstName": "Kameron",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82915011",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "cd5a7192-1ce8-4914-815c-30c51fab73f7",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-05T10:49:13.676Z",
+        "updated_at": "2023-10-05T11:32:40.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62bdb495-6fe9-4a21-a4f8-8a1f8196aff5",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-05T21:36:30.341Z",
+        "updated_at": "2023-10-06T02:57:50.664Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f999998c-37a2-4e6d-9386-dc6e300ca15c",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T12:28:22.441Z",
+        "updated_at": "2023-10-05T18:22:08.376Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca21ef3f-36e6-4734-b1bf-53ee09d301ec",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T23:36:55.477Z",
+        "updated_at": "2023-10-05T10:52:35.464Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea4b8729-36aa-4dde-aaaa-0419b35bd202",
+        "dashboard_name": "Production Dashboard",
+        "created_at": "2023-10-06T01:04:03.911Z",
+        "updated_at": "2023-10-06T03:12:01.225Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "70fddf6c-6cfa-405e-975f-c9bc613436be",
+        "staff_name": "John Doe",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T09:59:04.994Z",
+        "updated_at": "2023-10-05T06:43:36.072Z",
+        "dashboard_id": "cd5a7192-1ce8-4914-815c-30c51fab73f7"
+      },
+      {
+        "id": "46ae6896-d36a-4b38-b3a8-c1ea2508a23d",
+        "staff_name": "Jane Smith",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-05T04:34:05.496Z",
+        "updated_at": "2023-10-05T11:00:13.418Z",
+        "dashboard_id": "62bdb495-6fe9-4a21-a4f8-8a1f8196aff5"
+      },
+      {
+        "id": "0df3d7c2-05f3-4913-af29-8303ee0f7590",
+        "staff_name": "Michael Brown",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-06T02:44:38.252Z",
+        "updated_at": "2023-10-05T11:20:44.274Z",
+        "dashboard_id": "cd5a7192-1ce8-4914-815c-30c51fab73f7"
+      },
+      {
+        "id": "34f0d7aa-6f7c-4deb-8b4f-a5006f6f40af",
+        "staff_name": "Sarah Jones",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T12:34:43.121Z",
+        "updated_at": "2023-10-05T06:58:01.069Z",
+        "dashboard_id": "ea4b8729-36aa-4dde-aaaa-0419b35bd202"
+      },
+      {
+        "id": "1876be0f-f1fa-4d1c-88c2-6814578f4897",
+        "staff_name": "Robert Wilson",
+        "staff_role": "Assistant",
+        "created_at": "2023-10-05T20:35:30.288Z",
+        "updated_at": "2023-10-05T04:18:04.260Z",
+        "dashboard_id": "62bdb495-6fe9-4a21-a4f8-8a1f8196aff5"
+      }
+    ],
+    "car": [
+      {
+        "id": "9286c99e-1bbc-4500-8662-ecef8c9757ba",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 64178,
+        "color": "Red",
+        "mileage": 20985,
+        "location": "Los Angeles",
+        "created_at": "2023-10-05T17:28:44.669Z",
+        "updated_at": "2023-10-05T20:36:28.874Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9d561879-bc4a-4f25-8b12-f26a3f77a5e1",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 66048,
+        "color": "Blue",
+        "mileage": 38397,
+        "location": "New York",
+        "created_at": "2023-10-05T09:48:34.102Z",
+        "updated_at": "2023-10-06T02:59:53.650Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0bf8702e-54b7-4321-8cba-66169c77ef77",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2803,
+        "color": "Green",
+        "mileage": 75354,
+        "location": "Chicago",
+        "created_at": "2023-10-05T18:11:21.224Z",
+        "updated_at": "2023-10-05T06:12:50.697Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bfb662ee-bfce-4794-b721-7675f95cbf1c",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 61355,
+        "color": "Black",
+        "mileage": 49571,
+        "location": "Houston",
+        "created_at": "2023-10-05T17:10:46.149Z",
+        "updated_at": "2023-10-05T09:44:08.163Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ddd26ed9-d914-4c31-b353-5e13427a83a5",
+        "make": "BMW",
+        "model": "X5",
+        "year": 24630,
+        "color": "White",
+        "mileage": 71965,
+        "location": "Miami",
+        "created_at": "2023-10-06T00:48:14.853Z",
+        "updated_at": "2023-10-05T06:16:11.852Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5888205b-c115-4b6f-b0a0-12ad407da2cb",
+        "start_time": "2023-10-05T11:38:06.393Z",
+        "end_time": "2023-10-05T15:39:55.657Z",
+        "created_at": "2023-10-05T07:45:33.256Z",
+        "updated_at": "2023-10-05T21:40:03.557Z",
+        "car_id": "9d561879-bc4a-4f25-8b12-f26a3f77a5e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c5dbef5-c4d8-461b-8f12-75b8f862e30c",
+        "start_time": "2023-10-05T20:05:33.835Z",
+        "end_time": "2023-10-05T18:31:51.776Z",
+        "created_at": "2023-10-05T11:47:27.124Z",
+        "updated_at": "2023-10-05T22:32:52.580Z",
+        "car_id": "9d561879-bc4a-4f25-8b12-f26a3f77a5e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5bc72eb-a31f-4064-8cb9-92eab4d6250e",
+        "start_time": "2023-10-05T23:28:52.313Z",
+        "end_time": "2023-10-05T08:57:40.774Z",
+        "created_at": "2023-10-06T03:31:58.439Z",
+        "updated_at": "2023-10-05T21:33:39.933Z",
+        "car_id": "9d561879-bc4a-4f25-8b12-f26a3f77a5e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "988bec12-2090-4b4e-b429-9ec0b8aeeff4",
+        "start_time": "2023-10-05T06:28:11.328Z",
+        "end_time": "2023-10-05T21:37:57.521Z",
+        "created_at": "2023-10-05T19:20:44.953Z",
+        "updated_at": "2023-10-05T22:32:42.644Z",
+        "car_id": "bfb662ee-bfce-4794-b721-7675f95cbf1c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "726d8079-8499-445f-af01-018b13af53d8",
+        "start_time": "2023-10-05T18:05:07.196Z",
+        "end_time": "2023-10-06T02:37:03.642Z",
+        "created_at": "2023-10-05T09:03:47.582Z",
+        "updated_at": "2023-10-05T08:57:39.459Z",
+        "car_id": "bfb662ee-bfce-4794-b721-7675f95cbf1c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b6f7d309-eb03-43b4-888f-9cbdb6abf117",
+        "email": "Amber.Fritsch@roq.tech",
+        "firstName": "Blaze",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87214123",
+        "tenantId": null
+      },
+      {
+        "reference": "099716ba-a8a2-46d9-8c50-9083e70553ec",
+        "email": "Edwardo_Hickle@roq.tech",
+        "firstName": "Clemmie",
+        "lastName": "Runolfsdottir-Farrell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74968220",
+        "tenantId": null
+      },
+      {
+        "reference": "daaa9522-2c82-4dfb-8f76-9a45178bcc12",
+        "email": "Iva44@roq.tech",
+        "firstName": "Edna",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52348997",
+        "tenantId": null
+      },
+      {
+        "reference": "dad205d9-0af6-4b1a-b1a6-d7c3ab9743fc",
+        "email": "Rosalee.Zulauf6@roq.tech",
+        "firstName": "Deanna",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10388757",
+        "tenantId": null
+      },
+      {
+        "reference": "73cfee19-58b2-45ec-9c23-e7c4c505d481",
+        "email": "Lisandro3@roq.tech",
+        "firstName": "Karlee",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26115930",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "29c58153-659b-4b20-bb44-e4707ffc33f8",
+        "dashboard_name": "Sales Dashboard",
+        "created_at": "2023-10-06T03:13:40.900Z",
+        "updated_at": "2023-10-05T05:31:19.649Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c108fb4-559b-4f19-9af3-26d1c34f1c54",
+        "dashboard_name": "Marketing Dashboard",
+        "created_at": "2023-10-05T13:34:52.665Z",
+        "updated_at": "2023-10-05T20:29:08.813Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f33a5478-efa3-4692-a113-9629c2df4018",
+        "dashboard_name": "Finance Dashboard",
+        "created_at": "2023-10-05T05:27:48.792Z",
+        "updated_at": "2023-10-06T03:27:08.009Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc86de88-5e48-4cad-965e-095476145bd1",
+        "dashboard_name": "HR Dashboard",
+        "created_at": "2023-10-05T12:43:39.585Z",
+        "updated_at": "2023-10-05T18:02:06.297Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b05544c0-821d-415b-b186-330c30cac99c",
+        "dashboard_name": "Production Dashboard",
+        "created_at": "2023-10-05T14:30:28.059Z",
+        "updated_at": "2023-10-06T01:04:08.620Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "operations_staff": [
+      {
+        "id": "8275c443-cfd3-49ff-9167-cfeff45b25c8",
+        "staff_name": "Alex",
+        "staff_role": "Manager",
+        "created_at": "2023-10-05T18:44:14.043Z",
+        "updated_at": "2023-10-06T03:24:49.025Z",
+        "dashboard_id": "f33a5478-efa3-4692-a113-9629c2df4018"
+      },
+      {
+        "id": "ac8da612-f36b-401f-bf31-27a41d66edd1",
+        "staff_name": "Emily",
+        "staff_role": "Supervisor",
+        "created_at": "2023-10-05T18:35:38.185Z",
+        "updated_at": "2023-10-05T14:02:14.025Z",
+        "dashboard_id": "f33a5478-efa3-4692-a113-9629c2df4018"
+      },
+      {
+        "id": "41146f0c-0e77-47d0-84f8-34a4b2ab110b",
+        "staff_name": "Daniel",
+        "staff_role": "Analyst",
+        "created_at": "2023-10-05T21:40:01.018Z",
+        "updated_at": "2023-10-05T16:12:56.189Z",
+        "dashboard_id": "f33a5478-efa3-4692-a113-9629c2df4018"
+      },
+      {
+        "id": "67d22832-1679-49ec-a86e-8534ba9f48f6",
+        "staff_name": "Olivia",
+        "staff_role": "Coordinator",
+        "created_at": "2023-10-05T14:54:23.063Z",
+        "updated_at": "2023-10-05T14:52:43.623Z",
+        "dashboard_id": "b05544c0-821d-415b-b186-330c30cac99c"
+      },
+      {
+        "id": "000a4b1c-6b1d-4eca-8f3a-e41879a4ccc9",
+        "staff_name": "William",
+        "staff_role": "Specialist",
+        "created_at": "2023-10-05T16:43:10.205Z",
+        "updated_at": "2023-10-05T21:38:38.933Z",
+        "dashboard_id": "dc86de88-5e48-4cad-965e-095476145bd1"
+      }
+    ],
+    "car": [
+      {
+        "id": "2033f693-aaa1-4b75-8c91-347bf5410efc",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 47797,
+        "color": "Red",
+        "mileage": 2391,
+        "location": "Los Angeles",
+        "created_at": "2023-10-05T13:02:15.191Z",
+        "updated_at": "2023-10-05T20:28:16.079Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e301f44c-93e3-4d40-a6f2-17dc7275cdae",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 57197,
+        "color": "Blue",
+        "mileage": 8354,
+        "location": "New York",
+        "created_at": "2023-10-05T17:40:38.269Z",
+        "updated_at": "2023-10-05T12:05:31.866Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d20c2bbe-3696-4242-9634-fd78e4e224f6",
+        "make": "Ford",
+        "model": "Focus",
+        "year": 70212,
+        "color": "Green",
+        "mileage": 55943,
+        "location": "Chicago",
+        "created_at": "2023-10-05T22:49:43.653Z",
+        "updated_at": "2023-10-05T05:01:31.484Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61ec65ee-d576-4604-bd65-450a15ba218b",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 21017,
+        "color": "Silver",
+        "mileage": 44247,
+        "location": "Houston",
+        "created_at": "2023-10-05T13:08:58.707Z",
+        "updated_at": "2023-10-06T00:37:52.272Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49cffeb9-cb8e-442a-9c6a-ae84467fd68d",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 47765,
+        "color": "Black",
+        "mileage": 32215,
+        "location": "Miami",
+        "created_at": "2023-10-05T08:05:55.343Z",
+        "updated_at": "2023-10-05T12:50:26.078Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d6703c25-24ec-4715-a8a6-3a3221705281",
+        "start_time": "2023-10-05T04:40:03.627Z",
+        "end_time": "2023-10-05T04:22:40.061Z",
+        "created_at": "2023-10-06T02:31:10.673Z",
+        "updated_at": "2023-10-05T06:40:50.187Z",
+        "car_id": "61ec65ee-d576-4604-bd65-450a15ba218b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02747d28-6e62-488b-8b4f-ec31b9fb60e8",
+        "start_time": "2023-10-05T15:37:52.310Z",
+        "end_time": "2023-10-05T19:40:03.408Z",
+        "created_at": "2023-10-05T17:35:17.043Z",
+        "updated_at": "2023-10-06T03:33:16.056Z",
+        "car_id": "e301f44c-93e3-4d40-a6f2-17dc7275cdae",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f849df7-9c0b-4799-8534-b56ca049db53",
+        "start_time": "2023-10-05T12:47:08.154Z",
+        "end_time": "2023-10-06T00:36:50.019Z",
+        "created_at": "2023-10-06T00:53:28.464Z",
+        "updated_at": "2023-10-05T05:07:28.697Z",
+        "car_id": "61ec65ee-d576-4604-bd65-450a15ba218b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "308b920b-2515-4563-94f2-e788d97b6743",
+        "start_time": "2023-10-05T23:59:51.263Z",
+        "end_time": "2023-10-05T17:23:50.234Z",
+        "created_at": "2023-10-05T18:33:59.756Z",
+        "updated_at": "2023-10-06T00:42:55.156Z",
+        "car_id": "49cffeb9-cb8e-442a-9c6a-ae84467fd68d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b70c5cbd-cfa7-42ba-9e26-d10af9d79b9e",
+        "start_time": "2023-10-06T01:12:36.474Z",
+        "end_time": "2023-10-06T03:25:29.707Z",
+        "created_at": "2023-10-05T07:17:20.178Z",
+        "updated_at": "2023-10-05T11:21:21.923Z",
+        "car_id": "49cffeb9-cb8e-442a-9c6a-ae84467fd68d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "688af1da-e9c5-491a-9801-7c535a43865c",
+        "email": "Lenny_Reinger20@roq.tech",
+        "firstName": "Alda",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6574685",
+        "tenantId": null
+      },
+      {
+        "reference": "d9afa858-9e6c-4696-bf98-64cd144e0191",
+        "email": "Joanne_Corkery23@roq.tech",
+        "firstName": "Eden",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38977714",
+        "tenantId": null
+      },
+      {
+        "reference": "60e9aec5-94c2-44e5-8ef1-4adfee39386d",
+        "email": "Hazle92@roq.tech",
+        "firstName": "Nikita",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92991767",
+        "tenantId": null
+      },
+      {
+        "reference": "f57d2d72-e0e0-40f2-b30d-ec079d4d5c45",
+        "email": "Francis70@roq.tech",
+        "firstName": "Myrtie",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/951.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c8706323-8d47-4bb0-a330-b55d734deb8f",
+        "email": "Briana.Weissnat@roq.tech",
+        "firstName": "Afton",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90584673",
+        "tenantId": null
+      }
+    ]
+  }
+]
